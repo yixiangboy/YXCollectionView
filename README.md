@@ -1,7 +1,18 @@
 ##本DEMO总共包括7个案例，分别如下：<br/>
 ###Demo1:网格视图<br/>
 ![网格视图](http://img.my.csdn.net/uploads/201512/24/1450924992_6572.gif)<br/>
-
+###Demo2:无限轮播<br/>
+![无限轮播](http://img.my.csdn.net/uploads/201512/24/1450924937_1121.gif)<br/>
+###Demo3:照片墙<br/>
+![照片墙](http://img.my.csdn.net/uploads/201512/24/1450924937_2933.gif)<br/>
+###Demo4:瀑布流<br/>
+![瀑布流](http://img.my.csdn.net/uploads/201512/24/1450924938_5353.gif)<br/>
+###Demo5:列表头部拉伸效果<br/>
+![列表头部拉升效果](http://img.my.csdn.net/uploads/201512/24/1450924939_8493.gif)<br/>
+###Demo6:倾斜的Cell<br/>
+![倾斜的cell](http://img.my.csdn.net/uploads/201512/14/1450064085_6773.gif)<br/>
+###Demo7:列表顶部逐渐增大效果<br/>
+![列表顶部逐渐增大效果](http://img.my.csdn.net/uploads/201512/24/1450925034_1941.gif)<br/>
 
 ##一、UICollectionView的简介
 UICollectionView是IOS 6中引进的列表展现控件，用于展示集合视图，布局更加灵活，可以高度定制内容的展现，可以有效的进行数据管理，即使对于大量数据，也非常的高效。苹果官方给出了Demo（[点我下载](https://developer.apple.com/library/ios/samplecode/CollectionView-Simple/Introduction/Intro.html#//apple_ref/doc/uid/DTS40012860)）是一个类似于Android里面的GridView的实现。和UITableView的实现相比较，他对于每一个Item都是一次复用，而UITableView只能对于每一行进行复用。如果你认为它仅仅是对GridView在IOS中的实现的话，那你就太小看它的功能了。下面我们就来一起学习UICollectionView的使用方法。
