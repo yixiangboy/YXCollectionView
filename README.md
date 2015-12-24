@@ -41,7 +41,7 @@ UICollectionView 向 UICollectionViewLayout 询问布局，当询问过程发生
 [Demo下载地址](https://github.com/yixiangboy/YXCollectionView.git)
 如果对你有点帮助，star一下吧。
 
-##六、联系方式
+##六、联系方式（欢迎关注，欢迎加好友）
 微博：[新浪微博](http://weibo.com/5612984599/profile?topnav=1&wvr=6)<br/>
 博客：[http://blog.csdn.net/yixiangboy ](http://blog.csdn.net/yixiangboy)<br/>
 github：[https://github.com/yixiangboy](https://github.com/yixiangboy)<br/>
