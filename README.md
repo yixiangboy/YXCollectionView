@@ -1,6 +1,6 @@
-##本DEMO总共包括7个案例，分别如下：\n
-###Demo1:网格视图\n
-![网格视图](http://img.my.csdn.net/uploads/201512/24/1450924992_6572.gif)\n
+##本DEMO总共包括7个案例，分别如下：<br/>
+###Demo1:网格视图<br/>
+![网格视图](http://img.my.csdn.net/uploads/201512/24/1450924992_6572.gif)<br/>
 
 
 ##一、UICollectionView的简介
@@ -21,16 +21,16 @@ UICollectionView是IOS 6中引进的列表展现控件，用于展示集合视�
 UICollectionView 向 UICollectionViewLayout 询问布局，当询问过程发生时，layout 对象会创建 UICollectionViewLayoutAttributes 实例。一个 UICollectionViewLayoutAttributes 对象管理着一个对应的 item layout 相关信息（一对一关系）
 
 ##四、案例学习地址
-1：[网格视图](http://blog.csdn.net/yixiangboy/article/details/49683345)\n
-2：[无限轮播](http://blog.csdn.net/yixiangboy/article/details/49705953)\n
-3：[列表头部拉伸效果](http://blog.csdn.net/yixiangboy/article/details/49718197)\n
-4：[倾斜列表效果](http://blog.csdn.net/yixiangboy/article/details/49795431)\n
+1：[网格视图](http://blog.csdn.net/yixiangboy/article/details/49683345)<br/>
+2：[无限轮播](http://blog.csdn.net/yixiangboy/article/details/49705953)<br/>
+3：[列表头部拉伸效果](http://blog.csdn.net/yixiangboy/article/details/49718197)<br/>
+4：[倾斜列表效果](http://blog.csdn.net/yixiangboy/article/details/49795431)<br/>
 
 ##五、Demo下载地址
 [Demo下载地址](https://github.com/yixiangboy/YXCollectionView.git)
 如果对你有点帮助，star一下吧。
 
 ##六、联系方式
-微博：[新浪微博](http://weibo.com/5612984599/profile?topnav=1&wvr=6)\n
-博客：[http://blog.csdn.net/yixiangboy ](http://blog.csdn.net/yixiangboy)\n
-github：[https://github.com/yixiangboy](https://github.com/yixiangboy)\n
+微博：[新浪微博](http://weibo.com/5612984599/profile?topnav=1&wvr=6)<br/>
+博客：[http://blog.csdn.net/yixiangboy ](http://blog.csdn.net/yixiangboy)<br/>
+github：[https://github.com/yixiangboy](https://github.com/yixiangboy)<br/>
