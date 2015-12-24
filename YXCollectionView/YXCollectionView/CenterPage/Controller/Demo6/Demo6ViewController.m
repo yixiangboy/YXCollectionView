@@ -29,7 +29,8 @@
     [super initView];
     
     TiltedLayout *tiltedLayout = [[TiltedLayout alloc] init];
-    tiltedLayout.itemSize = CGSizeMake(SCREEN_WIDTH-22, 130);
+    tiltedLayout.itemSize = CGSizeMake(SCREEN_WIDTH, 130);
+    tiltedLayout.minimumLineSpacing = 15;
     
     _collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, self.navBarHeight, SCREEN_WIDTH, SCREEN_HEIGHT-self.navBarHeight) collectionViewLayout:tiltedLayout];
     _collectionView.backgroundColor = [UIColor clearColor];
@@ -41,6 +42,8 @@
     [_collectionView registerClass:[Demo6Cell class] forCellWithReuseIdentifier:Demo6CellId];
     
 }
+
+
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     return 20;

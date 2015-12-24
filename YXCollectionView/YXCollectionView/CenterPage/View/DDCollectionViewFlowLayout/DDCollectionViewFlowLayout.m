@@ -50,17 +50,24 @@
     }
 }
 
-- (UICollectionViewLayoutAttributes *)layoutAttributesForSupplementaryViewOfKind:(NSString *)kind
-                                                                     atIndexPath:(NSIndexPath *)indexPath {
-    return headerFooterItemAttributes[kind][indexPath.section];
-}
-
-- (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath{
-    return layoutItemAttributes[indexPath.section][indexPath.item];
-}
+//没什么用，并没有用到
+//- (UICollectionViewLayoutAttributes *)layoutAttributesForSupplementaryViewOfKind:(NSString *)kind
+//                                                                     atIndexPath:(NSIndexPath *)indexPath {
+//    return headerFooterItemAttributes[kind][indexPath.section];
+//}
+//
+//- (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath{
+//    return layoutItemAttributes[indexPath.section][indexPath.item];
+//}
 
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
-    return [self searchVisibleLayoutAttributesInRect:rect];
+    CGRect visibleRect;
+    visibleRect.origin.x = rect.origin.x;
+    visibleRect.origin.y = rect.origin.y;
+    visibleRect.size.width = rect.size.width;
+    visibleRect.size.height = rect.size.height-60;
+    NSLog(@"%@",NSStringFromCGRect(rect));
+    return [self searchVisibleLayoutAttributesInRect:visibleRect];
 }
 
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds{

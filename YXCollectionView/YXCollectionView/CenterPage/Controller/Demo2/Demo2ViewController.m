@@ -129,7 +129,9 @@
     
     
     YYCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:YYIDCell forIndexPath:indexPath];
-    
+    if(!cell){
+        cell = [[YYCell alloc] init];
+    }
     cell.news=self.newses[indexPath.item];
     return cell;
 }

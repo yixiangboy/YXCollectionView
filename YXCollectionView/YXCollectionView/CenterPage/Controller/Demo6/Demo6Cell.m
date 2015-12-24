@@ -26,7 +26,10 @@
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    _imageShow.frame = self.contentView.bounds;
+    CGRect rect = self.contentView.bounds;
+    rect.origin.x = rect.origin.x - 20;
+    rect.size.width = rect.size.width+40;
+    _imageShow.frame = rect;
 }
 
 -(void)setImageName:(NSString *)imageName{
